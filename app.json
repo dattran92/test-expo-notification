@@ -37,6 +37,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "11cf28d1-ed49-4a64-9e61-bdcd473a41b3"
+      }
+    },
+    "owner": "dattran92"
   }
 }
