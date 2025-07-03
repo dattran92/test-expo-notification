@@ -1,4 +1,4 @@
-{
+export default {
   "expo": {
     "name": "test-expo-notification",
     "slug": "test-expo-notification",
@@ -18,7 +18,7 @@
       },
       "edgeToEdgeEnabled": true,
       "package": "com.dattran92.testexponotification",
-      "googleServicesFile": "./google-services.json"
+      "googleServicesFile": process.env.GOOGLE_SERVICES_JSON || "./google-services.json"
     },
     "web": {
       "bundler": "metro",
